@@ -39,7 +39,7 @@ app.post("/",function(req,res){
 
  const options = {
    method :"POST",
-   auth : "Tushar:a964ee2379fdc503f45bebaa877af86e9-us1"
+   auth : "Tushar:964ee2379fdc503f45bebaa877af86e9-us1"
  }
 
   const request= https.request(url,options,function(response){
